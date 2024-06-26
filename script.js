@@ -256,7 +256,7 @@ const calculateGrade = (num) => {
     if (!num) {
         return "Enter a valid grade number"
     } else {
-        switch (num) {
+        switch (true) {
             case num >= 90:
                 return "A"
     
@@ -276,7 +276,7 @@ const calculateGrade = (num) => {
     
 }
 
-console.log('Exercise 10 Result:', calculateGrade(""));
+console.log('Exercise 10 Result:', calculateGrade(79));
 
 
 
@@ -321,8 +321,8 @@ This function should return the count of arguments passed to it when called.
 Complete the exercise in the space below:
 */
 
-const numArgs = () => {
-    
+const numArgs = (...args) => {
+    return args.length
 }
 
 console.log('Exercise 12 Result:', numArgs(1, 2, 3, 4));
