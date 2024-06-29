@@ -153,7 +153,6 @@ console.log('Exercise 6 Result:', maxOfThree(100, 300, 47));
 
 
 
-
 /*
 Exercise 7: calculateTip()
 
